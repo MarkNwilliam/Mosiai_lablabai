@@ -1,0 +1,54 @@
+.navigation-drawer {
+    display: none;
+  }
+
+  /* dashboard.css */
+.navigation-button {
+    transition: background-color 0.2s ease;
+  }
+  
+  .navigation-button:hover {
+    background-color: #f3f4f6; /* Change as per your color scheme */
+  }
+  
+  /* This will add padding to your main content */
+  .content-area {
+    padding: 1rem;
+  }
+  
+  /* Add space between navigation items */
+  .navigation-item {
+    margin-bottom: 1rem;
+  }
+
+  
+/* This will affect all scrollbars in your app */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #3498db; /* this is a shade of blue */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2980b9; /* this is a darker shade of blue for hover state */
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: auto; 
+}
+
+  .fixed {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
